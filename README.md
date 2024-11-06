@@ -1,4 +1,4 @@
-# Hello, I'm Teacup
+# Hello, I'm Tanny
 <a href="https://www.linkedin.com/in/tanny-m-776a3898/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 

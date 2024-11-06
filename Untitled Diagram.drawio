@@ -160,8 +160,11 @@
         <mxCell id="qS3p0q1UVdvYkXwi9-oQ-10" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="386" y="10" width="79.37" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="qS3p0q1UVdvYkXwi9-oQ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;shape=link;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="qS3p0q1UVdvYkXwi9-oQ-11" target="qS3p0q1UVdvYkXwi9-oQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qS3p0q1UVdvYkXwi9-oQ-11" value="Wuzah Manager" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="200" width="78" height="30" as="geometry" />
+          <mxGeometry x="130.68" y="200" width="78" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qS3p0q1UVdvYkXwi9-oQ-12" value="TheHive" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="625.68" y="190" width="78" height="30" as="geometry" />
@@ -205,6 +208,14 @@
         </mxCell>
         <mxCell id="qS3p0q1UVdvYkXwi9-oQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.171;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="qS3p0q1UVdvYkXwi9-oQ-5" target="qS3p0q1UVdvYkXwi9-oQ-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qS3p0q1UVdvYkXwi9-oQ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="qS3p0q1UVdvYkXwi9-oQ-11" target="qS3p0q1UVdvYkXwi9-oQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qS3p0q1UVdvYkXwi9-oQ-43" value="9. Perform responsive action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qS3p0q1UVdvYkXwi9-oQ-42">
+          <mxGeometry x="0.0097" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

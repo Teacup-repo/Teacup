@@ -7,10 +7,10 @@ The IT manager has recognized the need for an internal IT audit to assess the cu
 
 \#\# Scope, Goals, and Risk Assessment Report
 
-\#\#\# Scope  
+\#\#\# **Scope**  
 The scope encompasses the entire security framework at TechNest Innovations, including all digital assets, internal processes, and compliance with best practices.
 
-\#\#\# Goals  
+\#\#\# **Goals**  
 The primary goal is to evaluate existing assets and complete a controls and compliance checklist to identify necessary improvements in TechNest's security posture.
 
 \#\#\# Current Assets  

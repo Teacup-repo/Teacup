@@ -1,0 +1,34 @@
+# UFW Hardening on Ubuntu
+
+This project demonstrates basic host-based firewall hardening using UFW (Uncomplicated Firewall) on Ubuntu. Includes steps to allow/deny traffic, validate with Nmap scans, and monitor firewall behavior.
+
+## 🔧 Setup
+
+- **Environment:** Ubuntu 20.04 VM
+- **Testing tool:** Kali Linux VM (on same subnet)
+
+## ✅ Tasks Completed
+
+- Allowed and denied traffic from specific IPs (e.g., Kali VM)
+- Configured default policies (`deny incoming`, `allow outgoing`)
+- Enabled logging
+- Verified behavior using Nmap scans
+- Reviewed UFW status and rules with CLI commands
+
+## 🧪 Commands Used
+
+```bash
+# Allow SSH and specific IP
+sudo ufw allow from 192.168.1.105 to any port 22
+
+# Deny all other inbound traffic
+sudo ufw default deny incoming
+sudo ufw enable
+
+# List rules
+sudo ufw status verbose
+
+# Enable logging
+sudo ufw logging on
+
+

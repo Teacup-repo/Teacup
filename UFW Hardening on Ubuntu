@@ -1,40 +1,33 @@
-# UFW Hardening on Ubuntu
+# 🔐 UFW Hardening on Ubuntu
 
-This project demonstrates basic host-based firewall hardening using UFW (Uncomplicated Firewall) on Ubuntu. Includes steps to allow/deny traffic, validate with Nmap scans, and monitor firewall behavior.
+This project demonstrates how to secure a Linux system using **UFW (Uncomplicated Firewall)** by allowing trusted services, denying untrusted traffic, and validating firewall behavior through scanning with **Nmap from Kali Linux**.
 
-## 🔧 Setup
+---
 
-- **Environment:** Ubuntu 20.04 VM
-- **Testing tool:** Kali Linux VM (on same subnet)
+## 🧰 Tools & Environment
 
-## ✅ Tasks Completed
+- 🐧 **Ubuntu 20.04 VM** (Firewall target)
+- 💥 **Kali Linux VM** (Attacker/simulation for scanning)
+- 🔥 **UFW** (Uncomplicated Firewall)
+- 🧪 **Nmap** (for port scanning and firewall validation)
 
-- Allowed and denied traffic from specific IPs (e.g., Kali VM)
-- Configured default policies (`deny incoming`, `allow outgoing`)
-- Enabled logging
-- Verified behavior using Nmap scans
-- Reviewed UFW status and rules with CLI commands
+---
 
-## 🧪 Commands Used
+## ⚙️ Configuration Steps
 
 ```bash
-# Allow SSH and specific IP
+# Allow SSH from a specific IP (Kali VM)
 sudo ufw allow from 192.168.1.105 to any port 22
 
 # Deny all other inbound traffic
 sudo ufw default deny incoming
 sudo ufw enable
 
-# List rules
+# Add a custom deny rule
+sudo ufw deny 50/tcp
+
+# View active rules
 sudo ufw status verbose
 
 # Enable logging
 sudo ufw logging on
-
-## 🔍 UFW Status Snapshot
-
-Sample output after configuring UFW to allow only trusted services and deny others:
-
-![Screenshot of UFW firewall rules](https://raw.githubusercontent.com/Teacup-repo/Teacup/main/UFW.png)
-
-

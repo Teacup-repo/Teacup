@@ -48,7 +48,7 @@ Importance of logging and visibility for incident response
 
 How to simulate and evaluate firewall rules using Nmap
 
-<img width="466" alt="UFW Deny in" src="https://github.com/user-attachments/assets/55910df4-7fdf-49da-940a-e475cfa120ee" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/bd70e624-6fd6-474e-80a3-117392eee72e" />
 
 
 

@@ -48,7 +48,21 @@ Importance of logging and visibility for incident response
 
 How to simulate and evaluate firewall rules using Nmap
 
-<img width="350" alt="image" src="https://github.com/user-attachments/assets/bd70e624-6fd6-474e-80a3-117392eee72e" />
+## 📸 Screenshots
+
+### 🔧 UFW Rules
+
+![UFW Rule Output](./UFW.png)
+
+### 🚫 Deny Port Rule
+
+![UFW Deny Port Config](./UFW%20Deny%20in.png)
+
+### 🧪 Nmap Scan from Kali
+
+![Kali Nmap Scan Result](./Kali%20UFW.png)
+
+
 
 
 

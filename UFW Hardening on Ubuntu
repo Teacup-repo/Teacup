@@ -31,3 +31,19 @@ sudo ufw status verbose
 
 # Enable logging
 sudo ufw logging on
+
+✅ Key Takeaways
+Configured UFW to allow only trusted inbound services (e.g., SSH)
+
+Enforced default-deny posture for all other traffic, including specific port blocks
+
+Validated firewall effectiveness using Nmap scans from an external VM
+
+Applied host-based firewall principles and basic offensive testing techniques
+
+🚀 What I Learned
+Practical experience securing Linux systems with UFW
+
+Importance of logging and visibility for incident response
+
+How to simulate and evaluate firewall rules using Nmap

@@ -31,3 +31,4 @@ sudo ufw status verbose
 # Enable logging
 sudo ufw logging on
 
+https://github.com/Teacup-repo/Teacup/blob/main/UFW.png 

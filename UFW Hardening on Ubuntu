@@ -35,5 +35,6 @@ sudo ufw logging on
 
 Sample output after configuring UFW to allow only trusted services and deny others:
 
-![UFW Firewall Status](https://raw.githubusercontent.com/Teacup-repo/Teacup/main/UFW.png)
+![Screenshot of UFW firewall rules](https://raw.githubusercontent.com/Teacup-repo/Teacup/main/UFW.png)
+
 

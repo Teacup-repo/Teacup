@@ -50,17 +50,17 @@ How to simulate and evaluate firewall rules using Nmap
 
 ## 📸 Screenshots
 
-### 🔧 UFW Rules
 
+
+### 🛠️ UFW Rules
 ![UFW Rule Output](./UFW.png)
 
-### 🚫 Deny Port Rule
-
+### ⛔ Deny Port Rule
 ![UFW Deny Port Config](./UFW%20Deny%20in.png)
 
 ### 🧪 Nmap Scan from Kali
-
 ![Kali Nmap Scan Result](./Kali%20UFW.png)
+
 
 
 

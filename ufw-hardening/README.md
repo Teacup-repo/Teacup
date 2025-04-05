@@ -47,3 +47,8 @@ Practical experience securing Linux systems with UFW
 Importance of logging and visibility for incident response
 
 How to simulate and evaluate firewall rules using Nmap
+
+<img width="466" alt="UFW Deny in" src="https://github.com/user-attachments/assets/55910df4-7fdf-49da-940a-e475cfa120ee" />
+
+
+

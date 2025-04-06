@@ -29,6 +29,8 @@ Built entirely in a containerized environment for safe experimentation and repro
 | **Regex**       | Pattern matching for sensitive data |
 
 ---
+
+
 ## 📸 Lab in Action
 
 Here’s a snapshot of the test cases being executed inside the container:

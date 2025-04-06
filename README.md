@@ -40,13 +40,14 @@ AWS · Azure · IAM · PCI DSS · NIST 800-53 · GDPR · Microsoft Defender for 
 **Governance & Strategy:**  
 Security Policy · UFW Firewall · Security Assessments · Risk Management · Awareness Training
 
-**Project Management:**  
-Agile · ITIL · Cross-functional Collaboration
+**Strategic Technology Leadership:**  
+Digital Transformation · Change Management · Stakeholder Engagement · Cross-Departmental Rollouts · Tech Modernization for Academia, Legal, and Enterprise Environments
 
 ---
 
 ## 🧪 Certifications & Learning
 
+![CISSP Associate](https://img.shields.io/badge/CISSP%20Associate-003366?style=for-the-badge&logo=isc2&logoColor=white)
 ![CompTIA Security+](https://img.shields.io/badge/CompTIA%20Security%2B-0096D6?style=for-the-badge&logo=compTIA&logoColor=white)
 ![Qualys Vulnerability Management](https://img.shields.io/badge/Qualys%20Vulnerability%20Management-002E6D?style=for-the-badge&logo=qualys&logoColor=white)
 ![Simplilearn Cyber Security Masterclass](https://img.shields.io/badge/Simplilearn%20Cyber%20Security%20Masterclass-6A4B94?style=for-the-badge&logo=simplilearn&logoColor=white)

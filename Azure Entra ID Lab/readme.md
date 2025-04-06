@@ -6,10 +6,10 @@ This lab demonstrates how to create and manage users in Azure Entra ID, assign r
 
 ## 📋 Objectives
 
-- ✅ Create a new internal user (Alex Intern)
-- ✅ Assign security groups
-- ✅ Grant administrative roles
-- ✅ Configure MFA and conditional access settings
+- ✅ Create a new internal user (Alex Intern)  
+- ✅ Assign security groups  
+- ✅ Grant administrative roles  
+- ✅ Configure MFA and conditional access settings  
 - ✅ Disable security defaults to simulate legacy auth scenarios
 
 ---
@@ -24,12 +24,18 @@ This lab demonstrates how to create and manage users in Azure Entra ID, assign r
   - Auto-generated temporary password
 - Created the user with **Member** type
 
+📸 _Screenshot: New user added to group_
+![New user](./new%20user%20added%20to%20group.png)
+
 ---
 
 ### 2️⃣ Assign User to Security Group (Optional)
 - Navigated to **Groups > + New group**
 - Created a new **Security** group named `Interns`
 - Added **Alex Intern** to the group under **Group memberships**
+
+📸 _Screenshot: Create security group_
+![Security group](./Create%20security%20group.png)
 
 ---
 
@@ -38,15 +44,8 @@ This lab demonstrates how to create and manage users in Azure Entra ID, assign r
 - Assigned **Attribute Assignment Reader** to provide minimal read access
 - Additional roles (e.g., Helpdesk Administrator, Intune roles) can be added based on policy needs
 
----
-
-### 4️⃣ Configure MFA (Optional / Disabled)
-- Navigated to **Microsoft Entra ID > Users > Per-user MFA**
-- Located Alex Intern and ensured MFA was **disabled** for lab simplicity
-- Optionally, used **User MFA settings** to:
-  - Avoid contact method enforcement
-  - Disable app-based auth
-- Disabled **Security Defaults** under **Properties** for broader control
+📸 _Screenshot: Assigned role to Alex_
+![Role assignment](./Assigned%20role%20to%20ALex.png)
 
 ---
 
@@ -68,3 +67,4 @@ From **Microsoft Entra ID > User settings**:
 ---
 
 > 💡 This lab is for demonstrating role-based access control (RBAC), compliance-driven identity design, and foundational IAM operations in a cloud enterprise setting.
+

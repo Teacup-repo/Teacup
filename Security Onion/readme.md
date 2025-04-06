@@ -99,10 +99,6 @@ By correlating data across dashboards, I identified key indicators of compromise
 - **Persistent DNS queries** indicating botnet behavior or WPAD abuse
 - **Unencrypted file transfers** that expose sensitive data
 
-These insights strengthened my ability to **think like a blue team analyst**—understanding context, digging into patterns, and asking the right questions:
-> _Why is this host talking to a known malicious domain? Why are certificate errors repeating across sessions?_
-
-This hands-on lab sharpened my skills in traffic analysis and reinforced my approach to defending network environments with visibility, validation, and thoughtful incident handling.
 
 ---
 

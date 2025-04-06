@@ -68,14 +68,6 @@ Gain real-world experience using Azure’s Microsoft Defender for Cloud to:
 
 ---
 
-## 💡 Next Steps (For Future Labs)
-
-- Add Defender for Endpoint integration
-- Explore Just-In-Time (JIT) VM access
-- Apply Defender recommendations and re-measure Secure Score impact
-
----
-
 ## 📚 Related Skills
 
 - ✅ NIST/CIS compliance awareness  

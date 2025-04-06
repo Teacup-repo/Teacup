@@ -44,7 +44,9 @@ Gain real-world experience using Azure’s Microsoft Defender for Cloud to:
 | Screenshot | Description |
 |------------|-------------|
 | ![VM Config](./SSH%20local.png) | SSH port exposed |
+
 | ![Terminal Output](./newuser%20and%20disable%20ufw.png) | Weak sudo user and firewall disabled |
+
 | ![Secure Score](./Azure%20lab%20report.png) | Defender Secure Score and risk insights |
 
 ---

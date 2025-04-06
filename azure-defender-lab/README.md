@@ -2,6 +2,8 @@
 
 A hands-on lab simulating insecure configurations in a cloud environment and validating Microsoft Defender for Cloud's detection and recommendation capabilities.
 
+---
+
 ## 🧠 Objective
 
 Gain real-world experience using Azure’s Microsoft Defender for Cloud to:
@@ -41,12 +43,9 @@ Gain real-world experience using Azure’s Microsoft Defender for Cloud to:
 
 | Screenshot | Description |
 |------------|-------------|
-| ![VM Config](./images/vm-config.png) | VM settings and open ports |
-| ![Terminal Output](./images/testuser-ufw-disabled.png) | Risky user + disabled firewall |
-| ![Secure Score](./images/secure-score.png) | Defender posture and recommendations |
-| ![Alerts](./images/alerts.png) | Generated security alerts |
-
-> 📷 Replace with your actual screenshots or terminal captures
+| ![VM Config](./SSH%20local.png) | SSH port exposed |
+| ![Terminal Output](./newuser%20and%20disable%20ufw.png) | Weak sudo user and firewall disabled |
+| ![Secure Score](./Azure%20lab%20report.png) | Defender Secure Score and risk insights |
 
 ---
 
@@ -54,7 +53,7 @@ Gain real-world experience using Azure’s Microsoft Defender for Cloud to:
 
 - 🔓 SSH accessible to the internet (0.0.0.0/0)
 - ⚠️ Privileged user with weak password
-- 🛑 Host firewall disabled (UFW off)
+- 🚩 Host firewall disabled (UFW off)
 - ❌ No endpoint protection agent installed
 - 🧠 Recommendations generated based on CIS best practices
 
@@ -62,7 +61,7 @@ Gain real-world experience using Azure’s Microsoft Defender for Cloud to:
 
 ## ✍️ Key Takeaways
 
-- Defender for Cloud provides visibility into basic and advanced misconfigurations
+- Microsoft Defender for Cloud provides visibility into basic and advanced misconfigurations
 - Secure Score reflects how posture changes based on exposed attack surfaces
 - Alerts and remediation steps align with real-world compliance standards
 
@@ -78,6 +77,6 @@ Gain real-world experience using Azure’s Microsoft Defender for Cloud to:
 
 ---
 
-## 📎 License
+## 📌 License
 
-For educational purposes only. Do not expose real-world environments intentionally.
+For educational purposes only. 

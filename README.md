@@ -1,97 +1,63 @@
-# Hello, I'm Tanny
+# 👋 Hello, I'm Tanny  
 <a href="https://www.linkedin.com/in/tanny-m-776a3898/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
+I'm a passionate Master’s student specializing in **Cybersecurity** with a strong foundation in digital transformation, threat analysis, and secure systems. I thrive on solving complex problems, and I’m constantly exploring new ways to **protect, detect, and respond** in digital environments.
 
-I'm a passionate Master's degree student diving deep into the exciting world of Cybersecurity! With a profound love for technology and a knack for tackling complex problems, I thrive on turning challenges into innovative solutions.
+---
 
-## Objective
+## 🎯 Objective
 
-My journey in managing digital transformation projects and conducting cybersecurity assessments has fueled my passion for cybersecurity. I am now eager to transition into this field, specifically aiming to become an Information Security Analyst.
+After managing digital transformation and cybersecurity projects, I’m now transitioning full-time into cybersecurity—focusing on **network defense**, **incident response**, and **compliance**. My goal is to become a proactive and knowledgeable **Information Security Analyst**.
 
-## Skills and Key Projects ##
+---
 
-### Network Security & Threat Analysis
-
-| **Project** | **Description** | **Tools Used** |
-|-------------|-----------------|----------------|
-| **Network Analysis with Wireshark** | Conducted in-depth network analysis using **Wireshark** to assess security across the 7 OSI layers, identifying and mitigating network threats like **ARP poisoning**, **ICMP floods**, **TCP SYN flood attacks**, **SSL stripping**, and **SQL injection**. | **Wireshark**, **Network Protocols**, **TCP/IP** |
-| **Threat Modeling with MITRE ATT&CK Framework** | Applied the **MITRE ATT&CK** framework for effective threat modeling and identifying cyber threats. Enhanced detection and mitigation strategies using threat intelligence. | **MITRE ATT&CK**, **Threat Intelligence** |
-
-### Security Automation & Incident Response
+## 🚀 Featured Projects
 
 | **Project** | **Description** | **Tools Used** |
 |-------------|-----------------|----------------|
-| **SOC Automation with Shuffle SOAR** | Led an automation project to integrate security tools and streamline incident response using **Shuffle SOAR**. Built automated workflows to accelerate detection and resolution of security incidents. | **Shuffle SOAR**, **Security Orchestration**, **Automation**, **Incident Response** |
-| **Windows Firewall Configuration & Security Log Monitoring** | Configured **Windows Firewall** for internal network security. Regularly analyzed security logs to identify and mitigate potential risks. | **Windows Firewall**, **Security Logs**, **Monitoring Tools** |
+| 🧅 **Security Onion Lab** | Built and configured Security Onion in a virtual environment. Imported and analyzed PCAP traffic to detect threats, investigate anomalies (e.g., WPAD spoofing, deprecated TLS, unencrypted file transfers), and respond using NIST IR methods. | Security Onion, Zeek, Suricata, Kibana, Wireshark |
+| ☁️ **Web Hosting on AWS S3** | Deployed and secured a static website using Amazon S3 with IAM policies and bucket permissions for secure access. | AWS S3, IAM, CloudTrail |
+| 🛡️ **Azure Defender Lab** | Hands-on lab with Microsoft Defender for Cloud. Enabled threat protection, identified insecure configurations, and mitigated vulnerabilities in Azure VMs. | Azure Security Center, Defender for Cloud |
+| 🔒 **UFW Hardening Lab** | Hardened a Linux server using UFW. Configured firewall rules to block unauthorized access while allowing essential services. | Ubuntu, UFW, SSH |
+| 🔁 **SOC Automation with Shuffle SOAR** | Automated incident response workflows by integrating tools via Shuffle SOAR. Reduced time-to-response using rule-based playbooks. | Shuffle, Python, API Integration |
+| 🧠 **MITRE ATT&CK Threat Modeling** | Used MITRE ATT&CK to map out threat behaviors and recommend security controls. | MITRE ATT&CK, Threat Intelligence |
+| 🔐 **PCI DSS Assessment** | Conducted internal assessments to help organizations align with PCI DSS requirements. | PCI DSS, Risk Management |
+| 📦 **Obfuscation & Code Security** | Obfuscated Python scripts using Pyminifier and Base64 to protect intellectual property. | Python, Pyminifier, Base64 |
 
-### Security Awareness & Training
+---
 
-| **Project** | **Description** | **Skills Used** |
-|-------------|-----------------|-----------------|
-| **Security Awareness Training at eToro** | Led company-wide security awareness training on **social engineering** attacks. Focused on teaching employees how to identify phishing attacks and other manipulation techniques. | **Security Awareness**, **Social Engineering Prevention**, **Employee Training** |
+## 🧰 Tools & Tech Highlights
 
-### Compliance & Policy Management
+**Security & Networking:**  
+Wireshark · Zeek · Suricata · TCP/IP · Security Onion · Metasploit · Shuffle SOAR · Hashcat
 
-| **Project** | **Description** | **Skills Used** |
-|-------------|-----------------|-----------------|
-| **Policy Creation & Compliance Management** | Developed and reviewed **Acceptable Use Policies (AUP)** for remote access and ensured compliance with internal security standards and regulatory requirements. | **Compliance**, **Policy Development**, **Risk Management** |
-| **PCI DSS Compliance & Security Assessments** | Conducted security assessments focused on **PCI DSS** compliance, guiding organizations in aligning their processes with industry-standard security practices. | **Compliance Management**, **PCI DSS**, **Security Assessments** |
+**Programming & Automation:**  
+Python · PowerShell · Pyminifier · Uncompyle6 · Shell scripting
 
-### Cloud & Document Security
+**Cloud & Compliance:**  
+AWS · Azure · IAM · PCI DSS · NIST 800-53 · GDPR · Microsoft Defender for Cloud
 
-| **Project** | **Description** | **Tools Used** |
-|-------------|-----------------|----------------|
-| **Cloud Security & Document Management Transformation** | Transformed **cloud-based document management systems** for legal and academic sectors. Improved data security and collaboration using cloud technologies. | **Cloud Security**, **Document Management Systems**, **Cloud Platforms** |
-| **Intellectual Property Management System Automation** | Implemented an **IP management system** that integrated cloud-based technologies for improved security and automated workflows, serving law firms and academic institutions. | **Cloud Platforms**, **IP Management**, **Workflow Automation** |
+**Governance & Strategy:**  
+Security Policy · UFW Firewall · Security Assessments · Risk Management · Awareness Training
 
-### Obfuscation & Code Security
+**Project Management:**  
+Agile · ITIL · Cross-functional Collaboration
 
-| **Project** | **Description** | **Tools Used** |
-|-------------|-----------------|----------------|
-| **Obfuscation & Code Security** | Enhanced Python code security using **Base64** and **Pyminifier** for obfuscation. Reduced the risk of reverse engineering and safeguarded intellectual property. | **Base64**, **Pyminifier**, **Python** |
+---
 
-### Additional Tools & Technologies:
+## 🧪 Certifications & Learning
 
-| **Category** | **Tools Used** |
-|--------------|----------------|
-| **Networking & Security** | Wireshark, TCP/IP, MITRE ATT&CK |
-| **Programming & Automation** | Python, PowerShell, Hashcat, Pyminifier |
-| **Compliance & Frameworks** | PCI DSS, GDPR, NIST 27000, AWS Cloud Security,MITRE ATT&CK |
-| **Project Management & Consulting** | Agile, ITIL, Vulnerability Management (Qualys) |
-
-
-## Tools
-
-## Cybersecurity Tools & Technologies
-![Wireshark](https://img.shields.io/badge/Wireshark-000000?style=for-the-badge&logo=wireshark&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-555555?style=for-the-badge&logo=metasploit&logoColor=white)
-![Hashcat](https://img.shields.io/badge/Hashcat-333333?style=for-the-badge&logo=hashcat&logoColor=white)
-![Powershell](https://img.shields.io/badge/Powershell-2A3D4E?style=for-the-badge&logo=powershell&logoColor=white)
-![TCP/IP](https://img.shields.io/badge/TCP%2FIP-003366?style=for-the-badge&logo=stackexchange&logoColor=white)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-0A2F35?style=for-the-badge&logo=mitre&logoColor=white)
-![Proguard](https://img.shields.io/badge/Proguard-5B6B63?style=for-the-badge&logo=java&logoColor=white)
-![Pyminifier](https://img.shields.io/badge/Pyminifier-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Uncompyle6](https://img.shields.io/badge/Uncompyle6-44CC11?style=for-the-badge&logo=python&logoColor=white)
-![Windows Logs](https://img.shields.io/badge/Windows%20Logs-1E4E87?style=for-the-badge&logo=microsoft&logoColor=white)
-
-## Certifications
 ![CompTIA Security+](https://img.shields.io/badge/CompTIA%20Security%2B-0096D6?style=for-the-badge&logo=compTIA&logoColor=white)
 ![Qualys Vulnerability Management](https://img.shields.io/badge/Qualys%20Vulnerability%20Management-002E6D?style=for-the-badge&logo=qualys&logoColor=white)
 ![Simplilearn Cyber Security Masterclass](https://img.shields.io/badge/Simplilearn%20Cyber%20Security%20Masterclass-6A4B94?style=for-the-badge&logo=simplilearn&logoColor=white)
 ![Udemy PCI DSS Bootcamp](https://img.shields.io/badge/Udemy%20PCI%20DSS%20Bootcamp-EC5252?style=for-the-badge&logo=udemy&logoColor=white)
-
-## Cloud Technologies
 ![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS%20Certified%20Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-## Project Management & Methodologies
-![Agile Project Management](https://img.shields.io/badge/Agile%20Project%20Management-FF6F00?style=for-the-badge&logo=agile&logoColor=white)
-![ITIL](https://img.shields.io/badge/ITIL-5E2C7A?style=for-the-badge&logo=itil&logoColor=white)
+---
 
-## Security Frameworks & Standards
-![PCI DSS](https://img.shields.io/badge/PCI%20DSS-009C78?style=for-the-badge&logo=payment&logoColor=white)
-![NIST 27000](https://img.shields.io/badge/NIST%2027000-F1A64D?style=for-the-badge&logo=nist&logoColor=white)
-![GDPR](https://img.shields.io/badge/GDPR-4E74A6?style=for-the-badge&logo=gdpr&logoColor=white)
+## 📬 Let’s Connect!
 
+Whether you're a recruiter, mentor, or fellow cybersecurity enthusiast — I’d love to connect and collaborate. Feel free to check out my projects or reach out on [LinkedIn](https://www.linkedin.com/in/tanny-m-776a3898/)!
 
-
-
+---
+> 🔐 *All projects are lab-based, educational, and use simulated data for ethical learning purposes.*

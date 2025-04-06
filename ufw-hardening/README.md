@@ -1,56 +1,66 @@
 # 🔐 UFW Hardening on Ubuntu
 
-This project demonstrates how to secure a Linux system using **UFW (Uncomplicated Firewall)** by allowing trusted services, denying untrusted traffic, and validating firewall behavior through scanning with **Nmap from Kali Linux**.
+This lab demonstrates how to configure and harden the Uncomplicated Firewall (UFW) on Ubuntu Linux to control inbound and outbound traffic, enforce least privilege, and block unnecessary services.
+
+## 🎯 Objective
+
+- Enforce default-deny policy on inbound connections  
+- Allow only essential services (SSH, HTTP, HTTPS)  
+- Block suspicious ports and monitor with logging  
+- Validate rule effectiveness with Nmap from external VM  
 
 ---
 
-## 🧰 Tools & Environment
+## 🧰 Tools & Setup
 
-- 🐧 **Ubuntu 20.04 VM** (Firewall target)
-- 💥 **Kali Linux VM** (Attacker/simulation for scanning)
-- 🔥 **UFW** (Uncomplicated Firewall)
-- 🧪 **Nmap** (for port scanning and firewall validation)
+- 🐧 Ubuntu 20.04 LTS (on VMware)
+- 🔥 UFW – Uncomplicated Firewall
+- 🛠️ Terminal / SSH access
+- 🧪 Nmap (run externally from Kali VM)
 
 ---
 
-## ⚙️ Configuration Steps
+## ⚙️ Steps Performed
 
-```bash
-# Allow SSH from a specific IP (Kali VM)
-sudo ufw allow from 192.168.1.105 to any port 22
+| Action | Purpose |
+|--------|---------|
+| Allowed SSH from specific IP | Limit admin access (`192.168.1.105` to port `22`) |
+| Denied all other inbound traffic | Enforced default-deny posture |
+| Enabled logging | Captured and monitored connection attempts |
+| Denied specific port (`50/tcp`) | Simulated port block for threat testing |
+| Validated firewall with Nmap | Confirmed UFW effectiveness via external scan |
 
-# Deny all other inbound traffic
-sudo ufw default deny incoming
-sudo ufw enable
+---
 
-# Add a custom deny rule
-sudo ufw deny 50/tcp
+## 📸 Screenshots
 
-# View active rules
-sudo ufw status verbose
+| Screenshot | Description |
+|------------|-------------|
+| ![UFW Rules](./UFW.png) | Final active rules (allow SSH, HTTP, HTTPS, deny others) |
+| ![Deny Port](./UFW%20Deny%20in.png) | Custom rule blocking TCP port 50 |
+| ![Nmap Scan](./Kali%20UFW.png) | Nmap scan result from Kali VM confirming blocked access |
 
-# Enable logging
-sudo ufw logging on
+---
 
-✅ Key Takeaways
-Configured UFW to allow only trusted inbound services (e.g., SSH)
+## ✅ Key Takeaways
 
-Enforced default-deny posture for all other traffic, including specific port blocks
+- UFW provides easy yet effective host-based firewall control on Ubuntu
+- Default-deny posture and selective port allowance reduce attack surface
+- Logging supports visibility into traffic and intrusion attempts
+- External validation using tools like Nmap ensures firewall enforcement
 
-Validated firewall effectiveness using Nmap scans from an external VM
+---
 
-Applied host-based firewall principles and basic offensive testing techniques
+## 🧠 Skills Demonstrated
 
-🚀 What I Learned
-Practical experience securing Linux systems with UFW
+- 🔒 Linux host hardening  
+- 📜 Firewall configuration & rule auditing  
+- 🌐 Network traffic control  
+- 🚨 External threat simulation & testing  
+- 📘 Documentation for security operations  
 
-Importance of logging and visibility for incident response
+---
 
-How to simulate and evaluate firewall rules using Nmap
+## 📎 License
 
-
-
-
-
-
-
+For educational use only. Do not apply these rules on production without proper change control or impact assessment.

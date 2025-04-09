@@ -17,14 +17,13 @@ After managing digital transformation and cybersecurity projects, I’m now tran
 
 | **Project** | **Description** | **Tools Used** |
 |-------------|-----------------|----------------|
-| 🧅 **Security Onion Lab** | Built and configured Security Onion in a virtual environment. Imported and analyzed PCAP traffic to detect threats, investigate anomalies (e.g., WPAD spoofing, deprecated TLS, unencrypted file transfers), and respond using NIST IR methods. | Security Onion, Zeek, Suricata, Kibana, Wireshark |
-| ☁️ **Web Hosting on AWS S3** | Deployed and secured a static website using Amazon S3 with IAM policies and bucket permissions for secure access. | AWS S3, IAM, CloudTrail |
-| 🛡️ **Azure Defender Lab** | Hands-on lab with Microsoft Defender for Cloud. Enabled threat protection, identified insecure configurations, and mitigated vulnerabilities in Azure VMs. | Azure Security Center, Defender for Cloud |
-| 🔒 **UFW Hardening Lab** | Hardened a Linux server using UFW. Configured firewall rules to block unauthorized access while allowing essential services. | Ubuntu, UFW, SSH |
-| 🔁 **SOC Automation with Shuffle SOAR** | Automated incident response workflows by integrating tools via Shuffle SOAR. Reduced time-to-response using rule-based playbooks. | Shuffle, Python, API Integration |
-| 🧠 **MITRE ATT&CK Threat Modeling** | Used MITRE ATT&CK to map out threat behaviors and recommend security controls. | MITRE ATT&CK, Threat Intelligence |
-| 🔐 **PCI DSS Assessment** | Conducted internal assessments to help organizations align with PCI DSS requirements. | PCI DSS, Risk Management |
-| 📦 **Obfuscation & Code Security** | Obfuscated Python scripts using Pyminifier and Base64 to protect intellectual property. | Python, Pyminifier, Base64 |
+| 🧅 [**Security Onion Lab**](./Security%20Onion) | Built and configured Security Onion in a virtual environment. Imported and analyzed PCAP traffic to detect threats, investigate anomalies (e.g., WPAD spoofing, deprecated TLS, unencrypted file transfers), and respond using NIST IR methods. | Security Onion, Zeek, Suricata, Kibana, Wireshark |
+| ☁️ [**Web Hosting on AWS S3**](./Web%20hosting%20on%20S3) | Deployed and secured a static website using Amazon S3 with IAM policies and bucket permissions for secure access. | AWS S3, IAM, CloudTrail |
+| 🛡️ [**Azure Defender Lab**](./Azure%20Entra%20ID%20Lab) | Hands-on lab with Microsoft Defender for Cloud. Enabled threat protection, identified insecure configurations, and mitigated vulnerabilities in Azure VMs. | Azure Security Center, Defender for Cloud |
+| 🔐 [**DLP with Docker**](./DLP%20with%20Docker%20and%20Postfix) | Built a Postfix-based email server with DLP regex filtering for sensitive data (SSNs, credit cards). | Docker, Postfix, Regex |
+| 🦠 [**WannaCry Ransomware IR**](./WannaCry%20Ransomware%20Case%20Study) | Simulated IR workflow for WannaCry. Tracked executable behavior via ProcMon and Registry analysis. | Task Manager, Registry Editor, ProcMon |
+| 📊 [**Splunk Log Analysis**](./Splunk%20Log%20Analysis%20Labs) | Investigated Apache and Windows logs using Splunk. Identified top errors, recon signs, and 500 error spikes. | Splunk, Sysmon, Apache, Windows Event Logs |
+
 
 ---
 
@@ -60,6 +59,12 @@ Digital Transformation · Change Management · Stakeholder Engagement · Cross-D
 ## 📬 Let’s Connect!
 
 Whether you're a recruiter, mentor, or fellow cybersecurity enthusiast — I’d love to connect and collaborate. Feel free to check out my projects or reach out on [LinkedIn](https://www.linkedin.com/in/tanny-m-776a3898/)!
+
+---
+
+# 🧪 Cybersecurity Lab Portfolio
+
+A collection of hands-on labs in threat detection, SIEM, IR, and cloud security, demonstrating technical depth and real-world problem-solving.
 
 ---
 > 🔐 *All projects are lab-based, educational, and use simulated data for ethical learning purposes.*

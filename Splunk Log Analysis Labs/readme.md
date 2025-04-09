@@ -14,12 +14,9 @@ Analyzed a dataset of 101 Windows Event Logs using Splunk to identify potential 
 - **Top Log Source**: `System`
 - **Most Frequent Error IDs**: Event ID 1001 and 6008
 - **Correlation Insight**: Warnings frequently preceded Event ID 6008 (“unexpected shutdown”), suggesting a pattern of system instability.
-- **Visualization**: Generated pie chart of log type distribution and time chart of event frequency
 
-### 🛠️ Recommendations:
-- Investigate recurring Error ID 6008 to identify root cause of system crashes
-- Monitor Security logs for unauthorized activity or misconfiguration
-- Apply proactive health checks and alerting for early signs of failure
+### 📊 Visualizations:
+*Coming soon!*
 
 ---
 
@@ -32,19 +29,16 @@ Used Splunk to analyze 1,000 Apache web server logs and assess the security post
 - **Top Requested URL**: `/about.html` (221 requests)
 - **Most Common Response Code**: `500 Internal Server Error` (265 occurrences)
 - **Suspicious Pattern**: Unusually high 500 errors and repeated hits to a single page indicated potential DoS or misconfiguration
-- **Visualization**: Built dashboards showing request volume, response codes, and target URLs
 
-### 🛡️ Security Insights:
-- **Error Disclosure**: Repeated 500 errors may expose internal server issues
-- **Reconnaissance Behavior**: High traffic to a single endpoint could indicate probing activity
-- **Potential DoS Attack**: Volume and concentration of errors suggest system overload attempts
+### 📊 Visualizations:
 
-### 🛠️ Recommendations:
-- Implement user-friendly error messages that suppress server-side information
-- Monitor for high request frequency to individual endpoints
-- Deploy WAF to block malicious traffic targeting known weak routes
-- Improve input validation to reduce error-triggering payloads
+#### 🔹 Apache Log Sample
+![Apache Log](Apache%20log.png)
+
+#### 🔹 Most Requested URL
+![Apache Top URL](Apache%20Top%20URL%20.png)
+
+#### 🔹 Most Common Response Code
+![Apache Most Response Code](Apache%20most%20response%20code.png)
 
 ---
-
-

@@ -1,0 +1,3 @@
+[CHAIN] cmd.exe -> whoami.exe flagged for unusual execution path
+[ELEVATED] netcat.exe (PID: 1004) launched with elevated privileges
+[CHAIN] winword.exe -> powershell.exe flagged for unusual execution path

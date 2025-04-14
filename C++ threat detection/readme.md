@@ -6,6 +6,10 @@ It mimics how EDR (Endpoint Detection and Response) systems catch post-exploitat
 
 ---
 
+## 🔧 How to Compile & Run
+
+> 💻 Requires: g++ (MinGW or MSYS2 on Windows)
+
 ## 💡 What It Does
 
 - Simulates a process list including PID, parent, name, and privilege status

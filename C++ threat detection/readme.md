@@ -27,6 +27,18 @@ Threat scan complete. Log saved to suspicious_processes.log
 
 ---
 
+## 📸 Screenshots
+
+### 🔍 Terminal Output
+
+![Terminal Screenshot](./screenshot_terminal.png)
+
+### 📄 Generated Log File
+
+![Log File Screenshot](./suspicious_process_log.png)
+
+---
+
 ## 🛠️ How to Run It (Windows)
 
 1. Open PowerShell and navigate to your file location:
@@ -51,11 +63,3 @@ Threat scan complete. Log saved to suspicious_processes.log
 
 ---
 
-## 📌 Why This Lab Matters
-
-✅ Demonstrates your ability to write **low-level detection tooling**  
-✅ Simulates real-world post-exploitation behavior  
-✅ Written in **C++** — which is highly respected for systems-level roles  
-✅ Showcases your understanding of **process monitoring, logging, and alerting**
-
----

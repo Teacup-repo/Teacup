@@ -40,6 +40,25 @@ If a successful login follows repeated failures, the script flags it as a possib
 
 ![Compromised Login](Ips%20detected%20with%20brute%20force%20-%20compromised.png)
 
+
+---
+### 🧪 Screenshot: GeoIP Lookup Enabled
+
+This image shows how the script enriches brute-force or compromised logins with location info:
+
+![Code with GeoIP](code%20with%20GeoIP.png)
+
+---
+
+## 🌐 Testing with Public IPs
+
+To simulate real-world behavior, I created a `log_sample_public.txt` file using public IPs (like `8.8.8.8`, `1.1.1.1`, etc.).  
+This ensures that GeoIP lookups work correctly and shows how private/internal IPs are excluded from geolocation.
+
+### 📸 Screenshot: Sample Log with Public IPs
+
+![Using Public IPs](using%20public%20IPs%20for%20testing.png)
+
 ---
 
 ## 🛠️ How to Run It

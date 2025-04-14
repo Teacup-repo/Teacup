@@ -18,11 +18,13 @@ After managing digital transformation and cybersecurity projects, I’m now tran
 | **Project** | **Description** | **Tools Used** |
 |-------------|-----------------|----------------|
 | 🧅 [**Security Onion Lab**](./Security%20Onion) | Built and configured Security Onion in a virtual environment. Imported and analyzed PCAP traffic to detect threats, investigate anomalies (e.g., WPAD spoofing, deprecated TLS, unencrypted file transfers), and respond using NIST IR methods. | Security Onion, Zeek, Suricata, Kibana, Wireshark |
+| 🔁 [**Suspicious Login Detector – Python Automation**](./Security%20Automation%20in%20Python) | Developed a Python-based detection script to flag brute-force login attempts and possible account compromise. Integrated GeoIP lookup using the ipinfo API to enrich alerts with real-world IP location data. | Python, Log Analysis, ipinfo, GeoIP |
 | ☁️ [**Web Hosting on AWS S3**](./Web%20hosting%20on%20S3) | Deployed and secured a static website using Amazon S3 with IAM policies and bucket permissions for secure access. | AWS S3, IAM, CloudTrail |
 | 🛡️ [**Azure Defender Lab**](./Azure%20Entra%20ID%20Lab) | Hands-on lab with Microsoft Defender for Cloud. Enabled threat protection, identified insecure configurations, and mitigated vulnerabilities in Azure VMs. | Azure Security Center, Defender for Cloud |
 | 🔐 [**DLP with Docker**](./DLP%20with%20Docker%20and%20Postfix) | Built a Postfix-based email server with DLP regex filtering for sensitive data (SSNs, credit cards). | Docker, Postfix, Regex |
 | 🦠 [**WannaCry Ransomware IR**](./WannaCry%20Ransomware%20Case%20Study) | Simulated IR workflow for WannaCry. Tracked executable behavior via ProcMon and Registry analysis. | Task Manager, Registry Editor, ProcMon |
 | 📊 [**Splunk Log Analysis**](./Splunk%20Log%20Analysis%20Labs) | Investigated Apache and Windows logs using Splunk. Identified top errors, recon signs, and 500 error spikes. | Splunk, Sysmon, Apache, Windows Event Logs |
+
 
 
 ---

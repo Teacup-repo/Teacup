@@ -31,11 +31,11 @@ Threat scan complete. Log saved to suspicious_processes.log
 
 ### 🔍 Terminal Output
 
-![Terminal Screenshot](./screenshot_terminal.png)
+![Terminal Screenshot](terminal_output_cpp.png)
 
 ### 📄 Generated Log File
 
-![Log File Screenshot](./suspicious_process_log.png)
+![Log File Screenshot](log%20file.png)
 
 ---
 

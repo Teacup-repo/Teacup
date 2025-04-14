@@ -3,6 +3,8 @@
 This project simulates a lightweight endpoint detection tool written in C++ — designed to monitor process behavior and flag suspicious patterns like privilege escalation and unusual parent-child process chains.
 
 It mimics how EDR (Endpoint Detection and Response) systems catch post-exploitation behavior using simple heuristics.
+
+---
 📄 [process_monitor.cpp](./C++%20threat%20detection/process_monitor.cpp) — Full C++ source code
 
 ---

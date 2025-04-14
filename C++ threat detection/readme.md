@@ -31,7 +31,7 @@ Threat scan complete. Log saved to suspicious_processes.log
 
 ### 🔍 Terminal Output
 
-![Terminal Screenshot](terminal520output.png)
+![Terminal Screenshot](terminal%20output.png)
 
 ### 📄 Generated Log File
 

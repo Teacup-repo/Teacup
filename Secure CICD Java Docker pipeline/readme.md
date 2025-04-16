@@ -4,20 +4,6 @@ This lab demonstrates a secure CI/CD pipeline built for a simple Java Todo appli
 
 ---
 
-## 📁 Project Structure
-
-| File / Folder             | Purpose                                           |
-|--------------------------|---------------------------------------------------|
-| `.github/workflows/`     | GitHub Actions workflow configs                   |
-| `TodoList.java`          | Java source code (Todo app logic)                 |
-| `todolist17Test.java`    | Unit test for Java 17 environment                 |
-| `sonar-project.properties` | SonarQube config                                |
-| `lib/`                   | Dependencies                                      |
-| `Dockerfile` (in forked repo) | Docker setup per Java version              |
-| `README.md`              | You’re reading it                                 |
-
----
-
 ## 🚀 CI/CD + Docker Overview
 
 ### ✅ GitHub Actions Workflow:

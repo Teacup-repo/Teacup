@@ -72,7 +72,7 @@ The potential impact from the loss of an asset is rated as medium, as the IT dep
 | No | Protection of EU customer data | GDPR practices are not applied, risking potential fines from the EU. |  
 | Yes | Maintenance of privacy policies | Privacy policies are enforced and maintained by the IT team. |
 
-**System and Organization Controls (SOC)**
+**NIST Framework & GDPR Gaps: A Compliance Assessment for TechNest Innovations**
 
 | Yes / No | Best Practice| Explanation |  
 |:----------------:|:-----------------:|:---------------:|  

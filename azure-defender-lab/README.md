@@ -75,7 +75,6 @@ Gain real-world experience using Azure’s Microsoft Defender for Cloud to:
 - ✅ Network hardening & monitoring  
 - ✅ Azure security configuration  
 - ✅ Incident response basics in cloud environment  
-- ✅ CV-ready security documentation
 
 ---
 

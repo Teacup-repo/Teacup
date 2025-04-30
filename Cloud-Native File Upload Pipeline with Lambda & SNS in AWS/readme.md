@@ -7,15 +7,23 @@ This project sets up a serverless, event-driven architecture using multiple AWS 
 - **EC2 Instance (Amazon Linux)**  
   Used to upload files to S3 via AWS CLI. Configured with an IAM user (`tanny_intern`) with permission to access S3.
 
+  ![Create EC2 instance](Create%20EC2%20instance.png)
+
 - **S3 Bucket with KMS Encryption**  
   All uploaded files are stored in an S3 bucket (`bucket535kms`) with server-side encryption using AWS Key Management Service (KMS).
+
+  ![KMS Key Generation](KMS%20key%20generation.png)
 
 - **AWS Lambda Function**  
   Triggered by `s3:ObjectCreated:*` events. It processes uploaded files and publishes notifications to SNS.
 
+  ![Lambda Function Code + S3 Trigger](Set%20Lambda%20funtion%20code%20and%20link%20with%20S3%20trigger.png)
+
 - **SNS Topics**
   - **Standard Topic** → sends **email alerts** to subscribed users  
   - **FIFO Topic** → delivers messages to an **SQS FIFO queue** to ensure ordered processing
+
+  ![SNS Setup](Set%20up%20SNS.png)
 
 - **SQS FIFO Queue**  
   Stores messages published by the Lambda function via the FIFO topic for reliable, decoupled downstream processing.
@@ -27,6 +35,9 @@ This project sets up a serverless, event-driven architecture using multiple AWS 
 3. Lambda processes the file and sends:
    - an email alert via SNS Standard  
    - a structured message to SQS via SNS FIFO
+
+  ![Upload from EC2](uploaded%20test%20file%20to%20s3.png)
+  ![Email Notification](email%20notification%20when%20file%20uploaded%20in%20S3.png)
 
 ## 🚀 Technologies Used
 - AWS EC2

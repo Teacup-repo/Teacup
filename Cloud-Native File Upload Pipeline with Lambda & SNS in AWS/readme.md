@@ -51,5 +51,3 @@ This user is used within EC2 to run `aws s3 cp` commands via CLI.
 - **SNS FIFO to SQS delivery error**: The Lambda function failed silently when publishing to the FIFO topic due to missing `MessageGroupId` and `MessageDeduplicationId`. Adding those parameters fixed the issue and ensured successful SQS delivery.
 
 ---
-
-Feel free to fork or extend this to include additional downstream services like DynamoDB, Step Functions, or additional Lambda processors.

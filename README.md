@@ -1,7 +1,7 @@
 # 👋 Hello, I'm Tanny  
 <a href="https://www.linkedin.com/in/tanny-m-776a3898/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-I'm a passionate Master’s student in **Cybersecurity**, bringing over **8 years of experience leading digital transformation** across academia, legal, and enterprise environments. With a strong foundation in secure systems, threat analysis, and compliance, I’m now pivoting fully into **network defense and information security** — combining hands-on technical skills with strategy-driven thinking.
+I'm a passionate Master’s student in **Cybersecurity**, bringing over **10 years of experience leading digital transformation** across academia, legal, and enterprise environments. With a strong foundation in secure systems, threat analysis, and compliance, I’m now pivoting fully into **network defense and information security** — combining hands-on technical skills with strategy-driven thinking.
 
 I thrive on solving complex problems and continuously exploring new ways to **protect, detect, and respond** in digital environments.
 

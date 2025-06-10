@@ -47,8 +47,9 @@ gcloud iam service-accounts create suspicious-sa \
 ```sql
 protoPayload.methodName="google.iam.admin.v1.CreateServiceAccount"
 ```
+📸 Screenshot:  
+![Service Account Detection in Logs Explorer](./screenshots/suspicious-event.png)
 
-![Service Account Detected](./screenshots/suspicious-sa%20event.png)
 
 ```
 ## 📁 Sample Log Entry

@@ -9,7 +9,7 @@ We will detect suspicious IAM behavior in **Google Cloud Platform (GCP)** using 
 **Sigma** is a generic signature format for writing SIEM detections in a YAML-based structure. It acts as a **translation layer between log data and detection logic** — making your rules portable, tunable, and vendor-neutral.
 
 
-**These Sigma rules help detect: **
+**These Sigma rules help detect**
 
 🕵️ Suspicious service account creation  
 🔐 Privilege escalation via IAM policy bindings  

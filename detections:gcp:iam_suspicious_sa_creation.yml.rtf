@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 title: Suspicious GCP Service Account Creation Outside Business Hours\
+id: 04c1bb39-9421-4126-a62c-ffa7636df7c1\
+description: Detects creation of a service account outside typical working hours (e.g., 12am\'964am PST)\
+status: experimental\
+logsource:\
+  product: gcp\
+  service: audit\
+detection:\
+  selection:\
+    protoPayload.methodName: "google.iam.admin.v1.CreateServiceAccount"\
+  filter:\
+    protoPayload.authenticationInfo.principalEmail|not:\
+      - cicd@trusted-project.iam.gserviceaccount.com\
+      - admin@yourcompany.com\
+  condition: selection and not filter\
+falsepositives:\
+  - Known automation during off-hours\
+  - Legitimate pipeline deployments\
+level: high\
+tags:\
+  - attack.privilege_escalation\
+  - attack.t1078.004\
+}

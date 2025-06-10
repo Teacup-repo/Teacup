@@ -1,0 +1,73 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{\
+  "protoPayload": \{\
+    "@type": "type.googleapis.com/google.cloud.audit.AuditLog",\
+    "status": \{\},\
+    "authenticationInfo": \{\
+      "principalEmail": "admin@teacup.blog",\
+      "principalSubject": "user:admin@teacup.blog"\
+    \},\
+    "requestMetadata": \{\
+      "callerIp": "2a09:bac1:76e0:838::1d0:c0",\
+      "callerSuppliedUserAgent": "google-cloud-sdk gcloud/471.0.0 command/gcloud.iam.service-accounts.create invocation-id/0ce634cedcd840499ddd9f318ba5e02f environment/None environment-version/None client-os/MACOSX client-os-ver/24.5.0 client-pltf-arch/arm interactive/True from-script/False python/3.10.13 term/xterm-256color (Macintosh; Intel Mac OS X 24.5.0),gzip(gfe)",\
+      "requestAttributes": \{\
+        "time": "2025-06-10T20:46:34.215552042Z",\
+        "auth": \{\}\
+      \},\
+      "destinationAttributes": \{\}\
+    \},\
+    "serviceName": "iam.googleapis.com",\
+    "methodName": "google.iam.admin.v1.CreateServiceAccount",\
+    "authorizationInfo": [\
+      \{\
+        "resource": "projects/sigma-lab-detection",\
+        "permission": "iam.serviceAccounts.create",\
+        "granted": true,\
+        "resourceAttributes": \{\
+          "type": "iam.googleapis.com/ServiceAccount"\
+        \},\
+        "permissionType": "ADMIN_WRITE"\
+      \}\
+    ],\
+    "resourceName": "projects/sigma-lab-detection",\
+    "request": \{\
+      "account_id": "suspicious-sa",\
+      "@type": "type.googleapis.com/google.iam.admin.v1.CreateServiceAccountRequest",\
+      "name": "projects/sigma-lab-detection",\
+      "service_account": \{\
+        "description": "Created outside business hours",\
+        "display_name": "SuspiciousSA"\
+      \}\
+    \},\
+    "response": \{\
+      "etag": "MDEwMjE5MjA=",\
+      "@type": "type.googleapis.com/google.iam.admin.v1.ServiceAccount",\
+      "display_name": "SuspiciousSA",\
+      "oauth2_client_id": "104920410718531147759",\
+      "unique_id": "104920410718531147759",\
+      "email": "suspicious-sa@sigma-lab-detection.iam.gserviceaccount.com",\
+      "name": "projects/sigma-lab-detection/serviceAccounts/suspicious-sa@sigma-lab-detection.iam.gserviceaccount.com",\
+      "project_id": "sigma-lab-detection",\
+      "description": "Created outside business hours"\
+    \}\
+  \},\
+  "insertId": "1szet49f215uwp",\
+  "resource": \{\
+    "type": "service_account",\
+    "labels": \{\
+      "project_id": "sigma-lab-detection",\
+      "email_id": "suspicious-sa@sigma-lab-detection.iam.gserviceaccount.com",\
+      "unique_id": "104920410718531147759"\
+    \}\
+  \},\
+  "timestamp": "2025-06-10T20:46:34.195717390Z",\
+  "severity": "NOTICE",\
+  "logName": "projects/sigma-lab-detection/logs/cloudaudit.googleapis.com%2Factivity",\
+  "receiveTimestamp": "2025-06-10T20:46:34.806991661Z"\
+\}}

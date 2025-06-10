@@ -48,7 +48,8 @@ gcloud iam service-accounts create suspicious-sa \
 protoPayload.methodName="google.iam.admin.v1.CreateServiceAccount"
 ```
 
-GCP-Sigma-Detection/screenshots/suspicious-sa event.png
+![Service Account Detected](./screenshots/suspicious-sa%20event.png)
+
 ```
 ## 📁 Sample Log Entry
 

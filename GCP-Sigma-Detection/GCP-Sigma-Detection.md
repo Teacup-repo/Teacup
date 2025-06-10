@@ -56,7 +56,7 @@ protoPayload.methodName="google.iam.admin.v1.CreateServiceAccount"
 
 Captured during the lab:
 
-🔹 🔹 [`create_sa_sample_alt.json`](./log_samples/create_sa_sample_alt.json.rtf)
+🔹 [`create_sa_sample_alt.json`](./log_samples/create_sa_sample_alt.json.rtf)
 
 This log includes key fields such as:
 

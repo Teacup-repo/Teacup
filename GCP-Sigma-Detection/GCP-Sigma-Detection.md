@@ -10,9 +10,9 @@ We will detect suspicious IAM behavior in **Google Cloud Platform (GCP)** using 
 
 
 These Sigma rules help detect:
-- 🕵️ Suspicious service account creation  
-- 🔐 Privilege escalation via IAM policy bindings  
-- 🔄 Misuse of GCP APIs for persistence or lateral movement
+🕵️ Suspicious service account creation  
+🔐 Privilege escalation via IAM policy bindings  
+🔄 Misuse of GCP APIs for persistence or lateral movement
 
 ---
 

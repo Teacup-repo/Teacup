@@ -2,7 +2,7 @@
 
 This project simulates cloud identity threats in GCP and shows how to detect them using portable Sigma rules across SIEM platforms.
 
-This shows how to detect suspicious IAM behavior in **Google Cloud Platform (GCP)** using **Sigma-based Detection-as-Code**. It focuses on identifying **off-hours service account creation** by analyzing Cloud Audit Logs, tuning detection logic, and versioning everything in GitHub.
+We will detect suspicious IAM behavior in **Google Cloud Platform (GCP)** using **Sigma-based Detection-as-Code**. It focuses on identifying **off-hours service account creation** by analyzing Cloud Audit Logs, tuning detection logic, and versioning everything in GitHub.
 
 ## 💡 What Is Sigma?
 

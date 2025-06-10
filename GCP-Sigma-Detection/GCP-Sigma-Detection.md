@@ -51,12 +51,12 @@ protoPayload.methodName="google.iam.admin.v1.CreateServiceAccount"
 ![Service Account Detection in Logs Explorer](./screenshots/suspicious-event.png)
 
 
-```
+
 ## 📁 Sample Log Entry
 
 Captured during the lab:
 
-🔹 [`create_sa_sample.json`](./log_samples/create_sa_sample.json.rtf)
+🔹 🔹 [`create_sa_sample_alt.json`](./log_samples/create_sa_sample_alt.json.rtf)
 
 This log includes key fields such as:
 

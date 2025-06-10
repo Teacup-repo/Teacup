@@ -1,31 +1,38 @@
-Sigma Rule: Suspicious Service Account Creation in Google Cloud (GCP)
+🔐 GCP IAM Detection Lab – Sigma Rule for Service Account Monitoring
 
-## Summary
-This Sigma rule is part of the **Hafez GCP Sigma Detection Lab**, inspired by a recommendation from Hafez. It detects the creation of new Google Cloud service accounts (`google.iam.admin.v1.CreateServiceAccount`) occurring **outside of standard working hours** (12am–4am PST). 
-
-The rule is designed for **GCP Cloud Audit Logs** and can help identify suspicious IAM activity such as:
-- Privilege escalation
-- Unauthorized automation
-- Persistence via newly created service accounts
-
-> 💡 Written in [Sigma](https://sigmahq.io/) format and mapped to the GCP Audit log schema. Ideal for Detection-as-Code workflows in SOCs and cloud-native security teams.
+This lab demonstrates how to detect suspicious IAM behavior in Google Cloud using Sigma-based Detection-as-Code. It focuses on identifying off-hours service account creation by analyzing GCP Cloud Audit Logs and applying a Sigma rule for structured, reusable detection logic. This use case mirrors real-world SOC workflows aligned with cloud security, compliance (NIST/ATT&CK), and continuous monitoring goals.
 
 ---
 
-🔍 Sigma Rule Metadata
-- **File**: `iam_suspicious_sa_creation.yml`
-- **Platform**: Google Cloud Platform
-- **Log Source**: `product: gcp`, `service: audit`
-- **ATT&CK Tags**: 
-  - T1078.004 (Valid Accounts: Cloud Accounts)
-  - T1087 (Account Discovery)
+📋 Objectives
+
+✅ Enable Cloud Audit Logs for IAM API  
+✅ Simulate a suspicious service account creation using gcloud  
+✅ Query logs using Logs Explorer  
+✅ Write a Sigma rule for detection  
+✅ Tune the rule to reduce false positives  
+✅ Add time-based logic to simulate off-hours activity  
+✅ Document findings in GitHub using Detection-as-Code structure
 
 ---
 
-🧪 Sample Detection Query (Logs Explorer)
-```sql
-resource.type="project"
-protoPayload.methodName="google.iam.admin.v1.CreateServiceAccount"
-protoPayload.authenticationInfo.principalEmail!="admin@teacup.blog"
-timestamp >= "2025-06-10T08:00:00Z"
-timestamp <= "2025-06-10T12:00:00Z"
+👨‍💻 Steps Performed
+
+1️⃣ **Enable Audit Logs for IAM**
+
+- Navigated to IAM & Admin > Audit Logs  
+- Selected **Identity and Access Management (IAM API)**  
+- Enabled: ✅ Admin Read  
+- Confirmed logs are sent to Cloud Logging
+
+📸 Screenshot: IAM audit logging enabled
+
+---
+
+2️⃣ **Create Suspicious Service Account**
+
+- Opened terminal and ran:
+```bash
+gcloud iam service-accounts create suspicious-sa \
+  --description="Created outside business hours" \
+  --display-name="SuspiciousSA"

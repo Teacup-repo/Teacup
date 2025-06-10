@@ -56,13 +56,6 @@ This lab deepened my practical understanding of **data loss prevention (DLP)** u
 By simulating this DLP pipeline, I explored how **content filtering** integrates with email systems — critical for building **privacy-aware detections** in enterprise and regulated environments.
 
 ---
-
-## 🧪 Ethical Note
-
-All testing was performed in a secure lab with synthetic data — no real sensitive information was used.
-
----
-
 ## 🧩 Compliance & Privacy Mappings
 
 | Framework | Relevant Control |
@@ -72,4 +65,10 @@ All testing was performed in a secure lab with synthetic data — no real sensit
 | **PCI DSS** | Req 3.2.1 – No storage of sensitive auth data in email |
 
 ---
+## 🧪 Ethical Note
+
+All testing was performed in a secure lab with synthetic data — no real sensitive information was used.
+
+---
+
 

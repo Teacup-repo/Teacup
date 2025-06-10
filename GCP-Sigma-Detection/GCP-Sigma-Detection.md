@@ -1,6 +1,29 @@
 # 🔐 GCP IAM Detection Lab – Sigma Rule for Suspicious Service Account Creation
 
-This lab demonstrates how to detect suspicious IAM behavior in **Google Cloud Platform (GCP)** using **Sigma-based Detection-as-Code**. It focuses on identifying **off-hours service account creation** by analyzing Cloud Audit Logs, tuning detection logic, and versioning everything in GitHub.
+This project simulates cloud identity threats in GCP and shows how to detect them using portable Sigma rules across SIEM platforms.
+
+This shows how to detect suspicious IAM behavior in **Google Cloud Platform (GCP)** using **Sigma-based Detection-as-Code**. It focuses on identifying **off-hours service account creation** by analyzing Cloud Audit Logs, tuning detection logic, and versioning everything in GitHub.
+
+## 💡 What Is Sigma?
+
+**Sigma** is a generic signature format for writing SIEM detections in a YAML-based structure. It acts as a **translation layer between log data and detection logic** — making your rules portable, tunable, and vendor-neutral.
+
+
+These Sigma rules help detect:
+- 🕵️ Suspicious service account creation  
+- 🔐 Privilege escalation via IAM policy bindings  
+- 🔄 Misuse of GCP APIs for persistence or lateral movement
+
+---
+
+## 🧩 MITRE ATT&CK Mapping
+
+| Rule                        | Tactic               | Technique      | Description                                               |
+|----------------------------|----------------------|----------------|-----------------------------------------------------------|
+| `iam_suspicious_sa_creation` | Privilege Escalation | T1078.004       | New service accounts used to gain unauthorized access     |
+| `iam_set_policy`             | Defense Evasion / Persistence | T1098.003 | Modifying IAM bindings to maintain access or escalate     |
+
+---
 
 ---
 

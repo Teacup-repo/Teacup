@@ -36,12 +36,12 @@ This lab simulates a **Data Loss Prevention (DLP)** workflow using a containeriz
 
 ### 🔍 DLP Test Case
 
-![DLP test case](./screenshots/dlp-test.png)
+![DLP test case](./DLP%20test%20case.png)
 
 ### 🐳 Docker Container View
 
-![Docker container result](./screenshots/docker-view.png)
 
+![Docker container result](./docker%20result.png)
 ---
 
 ## 💡 What I Learned

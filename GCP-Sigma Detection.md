@@ -27,12 +27,26 @@ This lab demonstrates how to detect suspicious IAM behavior in Google Cloud usin
 
 📸 Screenshot: IAM audit logging enabled
 
----
 
+---
 2️⃣ **Create Suspicious Service Account**
 
 - Opened terminal and ran:
+
 ```bash
 gcloud iam service-accounts create suspicious-sa \
   --description="Created outside business hours" \
   --display-name="SuspiciousSA"
+```
+3️⃣ **Query Logs in Logs Explorer**
+
+- Navigated to **Logs Explorer**
+- Set project scope: `sigma-lab-detection`
+- Query used:
+
+```sql
+protoPayload.methodName="google.iam.admin.v1.CreateServiceAccount"
+```
+
+
+

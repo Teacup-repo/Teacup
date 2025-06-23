@@ -4,6 +4,9 @@ This project is a simple but powerful Python-based security script I created to 
 
 The goal of this lab was to strengthen my Python scripting skills while applying cybersecurity concepts like log analysis, incident detection, threshold-based alerts, and (optionally) automated email notifications.
 
+
+📄 [View the full Python script](./Python_Automation_lab.py)
+
 ---
 
 ## 🧠 What the Script Does
